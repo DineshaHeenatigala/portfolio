@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width-device-width, initial-scale=1.0">
+	<title>My update Document</title>
+	<link rel="stylesheet" href="update.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://kit.fontawesome.com/07238c419f.js" crossorigin="anonymous"></script>	
+
+	
+</head>
+<body>
+	<div id="header">
+		<div class="container">
+			<nav>
+				
+				<ul id="sidemenu">
+					<li><a href="#header">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#services">Services</a></li>
+					<li><a href="#portfolio">Protfolio</a></li>
+					<li><a href="#contact">Contact</a></li>
+					<i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+				</ul>
+				<i class="fa-solid fa-bars" onclick="openmenu()"></i>
+			</nav>
+             <div class="header-text">
+				<p>UI/UX Designer</p>
+				<h1>Hi, I'm <span>Dinesha<br>Dulakshi</span> from Sri Lanka</h1>
+			</div> 
+		</div>
+		
+           
+	</div>
+
+	<!----------------about------------>
+
+	<div id="about">
+		<div class="container">
+			<div class="row">
+				<div class="about-col-1">
+					<img src="images/Mydp.jpg">
+				</div>
+
+				<div class="about-col-2">
+					<h1 class="sub_title">About Me</h1>
+					<p>I see myself as a motivated and fast learning team player. 
+					 As a student completed diploma level in software engineering I would love to 
+                     innovative solutions for current problems in computer engineering while having
+                     flexibility to achieve life goals.</p>
+
+                     <div class="tab-titles">
+                     	
+                     	<p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                     	
+                     	<p class="tab-links" onclick="opentab('education')">Education</p>
+                     </div>
+
+                     <div class="tab-contents active-tab" id="skills">
+                     	  <ul>
+                     	  	<li><span>UI/UX</span><br>Designing Web Interfaces</li>
+                     	  
+                     	  
+                     	  	<li><span>Web Development</span><br> Web App Development</li>
+
+                     	  	<li><span>Technical Skills</span><br> Concurrent Programming / Data Mining / Machine Learning</li>
+
+                     	  	<li><span>Special Skills</span><br> Problem Solving / Teamwork / Leadership / Self Learning</li>
+
+                          </ul>
+                     </div>
+
+                     <div class="tab-contents" id="education">
+                     	  <ul>
+                     	  	<li><span>2023 - Current</span><br>Higher National Diploma in Software Engineering at National Institute of Business Management (NIBM) </li>
+                     	  
+                     	  
+                     	  	<li><span>2021-2022</span><br>Completed Diploma in software Engineering with <span> 3.86 GPA(Distintion)</span> at National Institute of Business Management (NIBM)</li>
+
+                     	  	<li><span>2015-2016</span><br>Completed certificate course in English at Beeline English Academy</li>
+
+                          </ul>
+                     </div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<!------------services------------>
+
+	<div id="services">
+		<div class="container">
+			<h1 class="sub_title">My Services</h1>
+			<div class="services-list">
+				<div>
+					<h2>Web Design</h2>
+					<p>A web designer works on the appearance, layout, and, in some cases, content of a website. Appearance, for instance, relates to the colors, font, and images used. Layout refers to how information is structured and categorized. A good web design is easy to use, aesthetically pleasing, and suits the user group and brand of the website.</p>
+				    
+				</div>
+
+				<div>
+					<h2>UI/UX Design</h2>
+					<p>The UI/UX Design Specialization brings a design-centric approach to user interface and user experience design, and offers practical, skill-based instruction centered around a visual communications perspective, rather than on one focused on marketing or programming alone.</p>
+				    
+				</div>
+
+				
+			</div>
+		</div>
+	</div>
+<!-------------portfolio-------->	
+
+  <div id="portfolio">
+  	<div class="container">
+  		<h1 class="sub_title">My work</h1>
+  		<div class="work-list">
+  			<div class="work">
+  				 <img src="images/background1.jpg">
+  				 <div class="layer">
+  				 	<h3>Web Design</h3>
+  				 	<p>A web site which provide a platform to find the best and most suitable mobile
+					devices to satisfy customer all needs. Major objective of this project is made
+				    it possible for our users to select and buy the applicable device.</p>
+  				 </div>
+  			</div>
+
+  			<div class="work">
+  				 <img src="images/coffee.jpg">
+  				 <div class="layer">
+  				 	<h3>Inventory System</h3>
+					<p>A software Application is done by using java(Net Beans) to calculate the bill for customer when they purchase any kind of coffee cups from a coffee shop</p>
+  				 </div>
+  			</div>
+
+  			<div class="work">
+  				 <img src="images/chatapp1.png">
+  				 <div class="layer">
+  				 	<h3>Chat App</h3>
+					<p>A chat Application to chat among two people is developing with using software security concepts</p>
+  				 </div>
+  			</div>
+
+  		</div>
+  	</div>
+  </div>
+
+  <!------Content---->
+  <div id="contact">
+  	<div class="container">
+  		
+  		<form>
+  			
+  				<h1 class="sub-title">Contact Me</h1>
+  				<p><i class="fa-solid fa-paper-plane"></i>dinesha.heenatigala@gmail.com</p>
+  				<p><i class="fa-solid fa-square-phone"></i>0703101603 / 077403921</p>
+  				<div class="social-icons">
+  					<a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+  					<a href="https://www.instagram.com/"><i class="fa-brands fa-square-instagram"></i></a>
+  					<a href="https://www.linkedin.com/in/dinesha-dulakshi-336269254/"><i class="fa-brands fa-linkedin"></i></a>
+  					<a href="https://github.com/DineshaHeenatigala"><i class="fa-brands fa-github"></i></a>
+  				</div>
+                 
+                 <a href="images/dineshaCV2.pdf" download class="btn btn2">Download CV</a>
+
+  			</form>
+
+  			
+  			
+  		
+  		
+  	</div>
+
+  	  <div class="copyright">
+  	  	 <p>Copyright @Dinesha. Made with <i class="fa-solid fa-heart"></i> by DDulakshi</p>
+  	  </div>
+  </div>
+
+      <script>
+      	var tablinks = document.getElementsByClassName("tab-links");
+      	var tabcontents = document.getElementsByClassName("tab-contents");
+
+      	function opentab(tabname){
+      		for(tablink of tablinks){
+      			tablink.classList.remove("active-link");
+      		}
+
+      		for(tabcontent of tabcontents){
+      			tabcontent.classList.remove("active-tab");
+      		}
+
+      		event.currentTarget.classList.add("active-link");
+      		document.getElementById(tabname).classList.add("active-tab");
+      	}
+
+      </script> 
+
+      <script>
+
+      	var sidemenu = document.getElementById("sidemenu");
+
+      	function openmenu(){
+      		sidemenu.style.right = "0";
+      	}
+
+      	function closemenu(){
+      		sidemenu.style.right = "-200px";
+      	}
+
+      </script>
+
+</body>
+</html>
